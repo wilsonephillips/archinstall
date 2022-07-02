@@ -1,0 +1,46 @@
+{
+    "/dev/nvme0n1": {
+        "partitions": [
+            {
+                "boot": true,
+                "encrypted": false,
+                "filesystem": {
+                    "format": "fat32"
+                },
+                "mountpoint": "/boot",
+                "size": "512MiB",
+                "start": "3MiB",
+                "type": "primary",
+                "wipe": true
+            },
+            {
+                "btrfs": {
+                    "subvolumes": {
+                        "@": "/",
+                        "@home": "/home",
+                        "@tmp": "/tmp",
+                        "@var": "/var",
+                        "@.snapshots": "/.snapshots"
+                    }
+                },
+                "encrypted": false,
+                "filesystem": {
+                    "format": "btrfs",
+                    "mount_options": [
+                        "noatime",
+                        "ssd",
+                        "discard=async",
+                        "space_cache=v2",
+                        "compress=zstd"
+                    ]
+                },
+                "mountpoint": null,
+                "size": "100%",
+                "start": "515MiB",
+                "type": "primary",
+                "wipe": true
+            }
+        ],
+        "wipe": true
+    }
+}
