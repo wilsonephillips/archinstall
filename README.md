@@ -16,12 +16,15 @@ iwctl can be used for wi-fi connections
 
 (2) get the pacman keys. If this fails, go back to step (1) You must have a connection.
 This will get the keys and sync the pacman repo db
+
 pacman -Syy
 
 (3) I like micro, but you can use vi, vim, nano, etc. We can assume you are creating these for the first time.
+
 pacman -S micro
 
 (4) Optional + Note that these are Case Sensitive! These can also be done in /etc/pacman.conf on the new install after it is all completed.
+
 micro /etc/pacman.conf
 uncomment #Color
 uncomment #VerbosePkgLists
@@ -33,13 +36,14 @@ save and exit
 sudo pacman -Syy to get the new key and sync the new repo
 
 (5) Lets do a dry run and get a copy of these config files to save and edit. This is really important if you want to do this with BTRFS and snapshots. The default settup is not like I would do mine. I prefer my settings for the subvolumes. Make sure you are still in /root .
+
 archinstall --dry-run
 
 (6) Go through each of the choices in the menu. Take your time and get them right. You want a good set of configs to start with.
 
 (7) Once you have completed your input of all of the configs, go down to Save Configuration and then Save All. Save the files to /root and this will put them right into the directory you are working from. Now, we can stop the install and edit the config files to do a better job with our partitions and subvolumes.
 
-(8) Run archinstall --config user_configuration.jason --disk_layouts user_disk_layout.jason --creds user_credentials.json and almost everything will be there except a password for root.
+(8) Run "archinstall --config user_configuration.jason --disk_layouts user_disk_layout.jason --creds user_credentials.json" and almost everything will be there except a password for root.
 
 Once you have completed the install and exited back to the command line, simply copy them to the new install with the following two commands, so you will have them for later and can upload them to your git.
 
@@ -48,5 +52,5 @@ cp /root/*.jason /mnt/archinstall/home/yourusername/archinstall/
 
 To use these files later, simply run them from a git url as shown in the command below. You don't even have to clone them. That's awesome! The following should be one line. Just one long command. Edit it to your git url. You don't want to use mine. Make one. You can do this!
 
-archinstall --config https://github.com/wilsonephillips/archinstall/user_configuration.jason --disk_layouts https://github.com/wilsonephillips/archinstall/user_disk_layout.jason
+"archinstall --config https://github.com/wilsonephillips/archinstall/user_configuration.jason --disk_layouts https://github.com/wilsonephillips/archinstall/user_disk_layout.jason"
 
