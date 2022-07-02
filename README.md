@@ -41,10 +41,12 @@ archinstall --dry-run
 
 (8) Run archinstall --config user_configuration.jason --disk_layouts user_disk_layout.jason --creds user_credentials.json and almost everything will be there except a password for root.
 
-Once you have completed the install and exited back to the command line, simply copy them to the new install, so you will have them for later and can upload them to your git.
+Once you have completed the install and exited back to the command line, simply copy them to the new install with the following two commands, so you will have them for later and can upload them to your git.
+
 mkdir /mnt/archinstall/home/yourusername/archinstall
 cp /root/*.jason /mnt/archinstall/home/yourusername/archinstall/
 
-To use these files later, simply run them from a git url as shown in the command below. You don't even have to clone them. That's awesome!
+To use these files later, simply run them from a git url as shown in the command below. You don't even have to clone them. That's awesome! The following should be one line. Just one long command. Edit it to your git url. You don't want to use mine. Make one. You can do this!
+
 archinstall --config https://github.com/wilsonephillips/archinstall/user_configuration.jason --disk_layouts https://github.com/wilsonephillips/archinstall/user_disk_layout.jason
 
