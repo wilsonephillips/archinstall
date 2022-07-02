@@ -26,13 +26,21 @@ pacman -S micro
 (4) Optional + Note that these are Case Sensitive! These can also be done in /etc/pacman.conf on the new install after it is all completed.
 
 micro /etc/pacman.conf
+
 uncomment #Color
+
 uncomment #VerbosePkgLists
+
 uncomment #ParallelDownloads = 5
+
 add a line just below it with ILoveCandy
+
 uncomment #[multilib]
+
 uncomment #Include = /etc/pacman.d/mirrorlist
+
 save and exit
+
 sudo pacman -Syy to get the new key and sync the new repo
 
 (5) Lets do a dry run and get a copy of these config files to save and edit. This is really important if you want to do this with BTRFS and snapshots. The default settup is not like I would do mine. I prefer my settings for the subvolumes. Make sure you are still in /root .
@@ -48,6 +56,7 @@ archinstall --dry-run
 Once you have completed the install and exited back to the command line, simply copy them to the new install with the following two commands, so you will have them for later and can upload them to your git.
 
 mkdir /mnt/archinstall/home/yourusername/archinstall
+
 cp /root/*.jason /mnt/archinstall/home/yourusername/archinstall/
 
 To use these files later, simply run them from a git url as shown in the command below. You don't even have to clone them. That's awesome! The following should be one line. Just one long command. Edit it to your git url. You don't want to use mine. Make one. You can do this!
