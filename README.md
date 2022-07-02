@@ -55,15 +55,15 @@ archinstall --dry-run
 
 (7) Once you have completed your input of all of the configs, go down to Save Configuration and then Save All. Save the files to /root and this will put them right into the directory you are working from. Now, we can stop the install and edit the config files to do a better job with our partitions and subvolumes.
 
-(8) Run "archinstall --config user_configuration.jason --disk_layouts user_disk_layout.jason --creds user_credentials.json" and almost everything will be there except a password for root.
+(8) Run "archinstall --config user_configuration.json --disk_layouts user_disk_layout.json --creds user_credentials.json" and almost everything will be there except a password for root.
 
 Once you have completed the install and exited back to the command line, simply copy them to the new install with the following two commands, so you will have them for later and can upload them to your git.
 
 mkdir /mnt/archinstall/home/yourusername/archinstall
 
-cp /root/*.jason /mnt/archinstall/home/yourusername/archinstall/
+cp /root/*.json /mnt/archinstall/home/yourusername/archinstall/
 
 To use these files later, simply run them from a git url as shown in the command below. You don't even have to clone them. That's awesome! The following should be one line. Just one long command. Edit it to your git url. You don't want to use mine. Make one. You can do this!
 
-"archinstall --config https://github.com/wilsonephillips/archinstall/user_configuration.jason --disk_layouts https://github.com/wilsonephillips/archinstall/user_disk_layout.jason"
+"archinstall --config https://github.com/wilsonephillips/archinstall/user_configuration.json --disk_layouts https://github.com/wilsonephillips/archinstall/user_disk_layout.json"
 
