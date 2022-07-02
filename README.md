@@ -1,7 +1,11 @@
 Reference:
+
 https://github.com/archlinux/archinstall
+
 https://archinstall.readthedocs.io/index.html
+
 https://archinstall.readthedocs.io/installing/guided.html
+
 The above are good, but they don't tell you how to simply create, edit and save these files for later use. That is the purpose of this text.
 
 NOTE: I am not a coder, so there may be some mistakes or mistyping of a file name or path in here. This is the first time I have used json files, but I managed to feel my way through this somehow. I am typing this all out from memory of last night and I am old, so... if I can do this, you can do this. I just know that there are no YouTube videos showing people how to use this new installer for Arch.
