@@ -67,3 +67,4 @@ To use these files later, simply run them from a git url as shown in the command
 
 "archinstall --config https://github.com/wilsonephillips/archinstall/user_configuration.json --disk_layouts https://github.com/wilsonephillips/archinstall/user_disk_layout.json"
 
+NOTE: So far, I have not been able to make the installer grab the URL links. If I clone them down, they work just fine. I think the archinstall is still a work in progress and I hope they get that part sorted out.
