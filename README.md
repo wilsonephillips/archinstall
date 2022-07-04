@@ -63,12 +63,4 @@ mkdir /mnt/archinstall/home/yourusername/archinstall
 
 cp /root/*.json /mnt/archinstall/home/yourusername/archinstall/
 
-To use these files later, simply run them from a git url as shown in the command below. You don't even have to clone them. That's awesome! The following should be one line. Just one long command. Edit it to your git url. You don't want to use mine. Make one. You can do this!
-
-"archinstall --config https://github.com/wilsonephillips/archinstall/user_configuration.json --disk_layouts https://github.com/wilsonephillips/archinstall/user_disk_layout.json"
-
-NOTE: So far, I have not been able to make the installer grab the URL links. If I clone them down, they work just fine. I think the archinstall is still a work in progress and I hope they get that part sorted out.
-
-UPDATE NOTE: I think I have a working link to get the configs with just the URL, but I will have to test it later. I had not tried the "raw" link before and everything else that I tried failed.
-
-archinstall --config https://raw.githubusercontent.com/wilsonephillips/archinstall/main/user_configuration.json --disk_layouts https://raw.githubusercontent.com/wilsonephillips/archinstall/main/user_disk_layout.json
+NOTE: So far, I have not been able to make the installer grab the URL links. If I clone them down, they work just fine. I don't know what is wrong with the links.
