@@ -9,6 +9,9 @@
         "/dev/nvme0n1"
     ],
     "hostname": "heisenberg",
+    "kernels: [
+        "linux-zen"
+    ]
     "mirror-region": {
         "United States": {
             "http://arch.hu.fo/archlinux/$repo/os/$arch": true,
