@@ -64,3 +64,7 @@ mkdir /mnt/archinstall/home/yourusername/archinstall
 cp /root/*.json /mnt/archinstall/home/yourusername/archinstall/
 
 NOTE: So far, I have not been able to make the installer grab the URL links. If I clone them down, they work just fine. I don't know what is wrong with the links.
+
+NOTE: I have come to the conclusion that the lack of the User_credentials.json file is what is causing this to fail. Since they are loaded in order, with the creds in the middle, it causes the user_disk_layout.json to fail. You could feasably do a --dry-run and create all three files, then clone the edited versions to overwrite them and that should work. It is easy enough to edit the disk layout on the fly and modify the partition sizes and subvolumes to suit you, but the ability to add all your required packages in the user_configuration.json is just way too handy. You would have to make sure that nothing in the list of files fails, or it just crashes out with no explaination. 
+
+I am still hopeful that the devs will continue their progress on this script. It has certainly improved over the past several months, but I think it has a long way to go.
