@@ -6,7 +6,7 @@
     "desktop-environment": "kde",
     "gfx_driver": "Nvidia (open kernel module for newer GPUs, Turing+)",
     "harddrives": [
-        "/dev/nvme0n1"
+        "/dev/sdb"
     ],
     "hostname": "heisenberg",
 
@@ -120,7 +120,8 @@
         "ip": null,
         "type": "nm"
     },
-    "packages --needed": [
+    "packages": [
+        "--needed",
         "acpi",
         "acpid",
         "acpi_call",
