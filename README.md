@@ -63,8 +63,6 @@ mkdir /mnt/archinstall/home/yourusername/archinstall
 
 cp /root/*.json /mnt/archinstall/home/yourusername/archinstall/
 
-NOTE: So far, I have not been able to make the installer grab the URL links. If I clone them down, they work just fine. I don't know what is wrong with the links.
+NOTE: I just verified that it will pull the files from the github link. It has to point to the raw file data using a link such as this one. Just click on the RAW button and use the link. https://raw.githubusercontent.com/wilsonephillips/archinstall/main/user_configuration.json
 
-NOTE: I have come to the conclusion that the lack of the User_credentials.json file is what is causing this to fail. Since they are loaded in order, with the creds in the middle, it causes the user_disk_layout.json to fail. You could feasably do a --dry-run and create all three files, then clone the edited versions to overwrite them and that should work. It is easy enough to edit the disk layout on the fly and modify the partition sizes and subvolumes to suit you, but the ability to add all your required packages in the user_configuration.json is just way too handy. You would have to make sure that nothing in the list of files fails, or it just crashes out with no explaination. 
-
-I am still hopeful that the devs will continue their progress on this script. It has certainly improved over the past several months, but I think it has a long way to go.
+Even then, it will fail if you do not name the path to all of them. If you name one, you have to name them all. I did it using just the link above and the other two were local. At least, I know for a fact that it works. This means you have to create all three files to use one.
