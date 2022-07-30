@@ -1,0 +1,667 @@
+Hardware model detected: To Be Filled By O.E.M. To Be Filled By O.E.M.; UEFI mode: False
+Processor model detected: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+Memory statistics: 32154216 available out of 32832348 total installed
+Could not detect virtual system: ['/usr/bin/systemd-detect-virt'] exited with abnormal exit code [256]: b'none\r\n'
+System is not running in a VM: ['/usr/bin/systemd-detect-virt'] exited with abnormal exit code [256]: b'none\r\n'
+Virtualization detected: None; is VM: None
+Graphics devices detected: dict_keys(['NVIDIA Corporation TU104 [GeForce RTX 2070 SUPER] (rev a1)'])
+Disk states before installing: {'blockdevices': [{'name': 'loop0', 'fstype': 'squashfs', 'fsver': '4.0', 'label': None, 'uuid': None, 'fsavail': '0', 'fsuse%': '100%', 'mountpoints': ['/run/archiso/airootfs'], 'type': 'loop', 'size': '689.8M'}, {'name': 'sda', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '465.8G', 'children': [{'name': 'sda1', 'fstype': 'ntfs', 'fsver': None, 'label': None, 'uuid': '16149AEF149AD0DB', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '465.8G'}]}, {'name': 'sdb', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '476.9G'}, {'name': 'sdc', 'fstype': 'iso9660', 'fsver': 'Joliet Extension', 'label': 'ARCH_202207', 'uuid': '2022-07-01-13-20-00-00', 'fsavail': '0', 'fsuse%': '100%', 'mountpoints': ['/run/archiso/bootmnt'], 'type': 'disk', 'size': '7.3G', 'children': [{'name': 'sdc1', 'fstype': 'iso9660', 'fsver': 'Joliet Extension', 'label': 'ARCH_202207', 'uuid': '2022-07-01-13-20-00-00', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '782M'}, {'name': 'sdc2', 'fstype': 'vfat', 'fsver': 'FAT16', 'label': 'ARCHISO_EFI', 'uuid': '4D09-F5F8', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '13M'}]}, {'name': 'sr0', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'rom', 'size': '1024M'}, {'name': 'nvme0n1', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '476.9G', 'children': [{'name': 'nvme0n1p1', 'fstype': 'ntfs', 'fsver': None, 'label': 'System Reserved', 'uuid': '76EA7AE1EA7A9D55', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '50M'}, {'name': 'nvme0n1p2', 'fstype': 'ntfs', 'fsver': None, 'label': None, 'uuid': 'CC747B4B747B3774', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '476.3G'}, {'name': 'nvme0n1p3', 'fstype': 'ntfs', 'fsver': None, 'label': None, 'uuid': 'A86831F06831BE3E', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '620M'}]}]}
+Testing connectivity to the Arch Linux mirrors ...
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get free space on /dev/sr0: ['/usr/bin/parted', '-s', '--machine', '/dev/sr0', 'print', 'free'] exited with abnormal exit code [256]: b'Error: Error opening /dev/sr0: No medium found\r\n'
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Hardware model detected: To Be Filled By O.E.M. To Be Filled By O.E.M.; UEFI mode: False
+Processor model detected: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+Memory statistics: 32150576 available out of 32832348 total installed
+Could not detect virtual system: ['/usr/bin/systemd-detect-virt'] exited with abnormal exit code [256]: b'none\r\n'
+System is not running in a VM: ['/usr/bin/systemd-detect-virt'] exited with abnormal exit code [256]: b'none\r\n'
+Virtualization detected: None; is VM: None
+Graphics devices detected: dict_keys(['NVIDIA Corporation TU104 [GeForce RTX 2070 SUPER] (rev a1)'])
+Disk states before installing: {'blockdevices': [{'name': 'loop0', 'fstype': 'squashfs', 'fsver': '4.0', 'label': None, 'uuid': None, 'fsavail': '0', 'fsuse%': '100%', 'mountpoints': ['/run/archiso/airootfs'], 'type': 'loop', 'size': '689.8M'}, {'name': 'sda', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '465.8G', 'children': [{'name': 'sda1', 'fstype': 'ntfs', 'fsver': None, 'label': None, 'uuid': '16149AEF149AD0DB', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '465.8G'}]}, {'name': 'sdb', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '476.9G'}, {'name': 'sdc', 'fstype': 'iso9660', 'fsver': 'Joliet Extension', 'label': 'ARCH_202207', 'uuid': '2022-07-01-13-20-00-00', 'fsavail': '0', 'fsuse%': '100%', 'mountpoints': ['/run/archiso/bootmnt'], 'type': 'disk', 'size': '7.3G', 'children': [{'name': 'sdc1', 'fstype': 'iso9660', 'fsver': 'Joliet Extension', 'label': 'ARCH_202207', 'uuid': '2022-07-01-13-20-00-00', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '782M'}, {'name': 'sdc2', 'fstype': 'vfat', 'fsver': 'FAT16', 'label': 'ARCHISO_EFI', 'uuid': '4D09-F5F8', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '13M'}]}, {'name': 'sr0', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'rom', 'size': '1024M'}, {'name': 'nvme0n1', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '476.9G', 'children': [{'name': 'nvme0n1p1', 'fstype': 'ntfs', 'fsver': None, 'label': 'System Reserved', 'uuid': '76EA7AE1EA7A9D55', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '50M'}, {'name': 'nvme0n1p2', 'fstype': 'ntfs', 'fsver': None, 'label': None, 'uuid': 'CC747B4B747B3774', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '476.3G'}, {'name': 'nvme0n1p3', 'fstype': 'ntfs', 'fsver': None, 'label': None, 'uuid': 'A86831F06831BE3E', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '620M'}]}]}
+Testing connectivity to the Arch Linux mirrors ...
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Hardware model detected: To Be Filled By O.E.M. To Be Filled By O.E.M.; UEFI mode: False
+Processor model detected: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+Memory statistics: 32148416 available out of 32832348 total installed
+Could not detect virtual system: ['/usr/bin/systemd-detect-virt'] exited with abnormal exit code [256]: b'none\r\n'
+System is not running in a VM: ['/usr/bin/systemd-detect-virt'] exited with abnormal exit code [256]: b'none\r\n'
+Virtualization detected: None; is VM: None
+Graphics devices detected: dict_keys(['NVIDIA Corporation TU104 [GeForce RTX 2070 SUPER] (rev a1)'])
+Disk states before installing: {'blockdevices': [{'name': 'loop0', 'fstype': 'squashfs', 'fsver': '4.0', 'label': None, 'uuid': None, 'fsavail': '0', 'fsuse%': '100%', 'mountpoints': ['/run/archiso/airootfs'], 'type': 'loop', 'size': '689.8M'}, {'name': 'sda', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '465.8G', 'children': [{'name': 'sda1', 'fstype': 'ntfs', 'fsver': None, 'label': None, 'uuid': '16149AEF149AD0DB', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '465.8G'}]}, {'name': 'sdb', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '476.9G'}, {'name': 'sdc', 'fstype': 'iso9660', 'fsver': 'Joliet Extension', 'label': 'ARCH_202207', 'uuid': '2022-07-01-13-20-00-00', 'fsavail': '0', 'fsuse%': '100%', 'mountpoints': ['/run/archiso/bootmnt'], 'type': 'disk', 'size': '7.3G', 'children': [{'name': 'sdc1', 'fstype': 'iso9660', 'fsver': 'Joliet Extension', 'label': 'ARCH_202207', 'uuid': '2022-07-01-13-20-00-00', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '782M'}, {'name': 'sdc2', 'fstype': 'vfat', 'fsver': 'FAT16', 'label': 'ARCHISO_EFI', 'uuid': '4D09-F5F8', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '13M'}]}, {'name': 'sr0', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'rom', 'size': '1024M'}, {'name': 'nvme0n1', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '476.9G', 'children': [{'name': 'nvme0n1p1', 'fstype': 'ntfs', 'fsver': None, 'label': 'System Reserved', 'uuid': '76EA7AE1EA7A9D55', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '50M'}, {'name': 'nvme0n1p2', 'fstype': 'ntfs', 'fsver': None, 'label': None, 'uuid': 'CC747B4B747B3774', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '476.3G'}, {'name': 'nvme0n1p3', 'fstype': 'ntfs', 'fsver': None, 'label': None, 'uuid': 'A86831F06831BE3E', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '620M'}]}]}
+Testing connectivity to the Arch Linux mirrors ...
+--config = user_configuration.json does not contain a valid JSON format: Expecting ',' delimiter: line 127 column 9 (char 7827)
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Hardware model detected: To Be Filled By O.E.M. To Be Filled By O.E.M.; UEFI mode: False
+Processor model detected: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+Memory statistics: 32154432 available out of 32832348 total installed
+Could not detect virtual system: ['/usr/bin/systemd-detect-virt'] exited with abnormal exit code [256]: b'none\r\n'
+System is not running in a VM: ['/usr/bin/systemd-detect-virt'] exited with abnormal exit code [256]: b'none\r\n'
+Virtualization detected: None; is VM: None
+Graphics devices detected: dict_keys(['NVIDIA Corporation TU104 [GeForce RTX 2070 SUPER] (rev a1)'])
+Disk states before installing: {'blockdevices': [{'name': 'loop0', 'fstype': 'squashfs', 'fsver': '4.0', 'label': None, 'uuid': None, 'fsavail': '0', 'fsuse%': '100%', 'mountpoints': ['/run/archiso/airootfs'], 'type': 'loop', 'size': '689.8M'}, {'name': 'sda', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '465.8G', 'children': [{'name': 'sda1', 'fstype': 'ntfs', 'fsver': None, 'label': None, 'uuid': '16149AEF149AD0DB', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '465.8G'}]}, {'name': 'sdb', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '476.9G'}, {'name': 'sdc', 'fstype': 'iso9660', 'fsver': 'Joliet Extension', 'label': 'ARCH_202207', 'uuid': '2022-07-01-13-20-00-00', 'fsavail': '0', 'fsuse%': '100%', 'mountpoints': ['/run/archiso/bootmnt'], 'type': 'disk', 'size': '7.3G', 'children': [{'name': 'sdc1', 'fstype': 'iso9660', 'fsver': 'Joliet Extension', 'label': 'ARCH_202207', 'uuid': '2022-07-01-13-20-00-00', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '782M'}, {'name': 'sdc2', 'fstype': 'vfat', 'fsver': 'FAT16', 'label': 'ARCHISO_EFI', 'uuid': '4D09-F5F8', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '13M'}]}, {'name': 'sr0', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'rom', 'size': '1024M'}, {'name': 'nvme0n1', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '476.9G', 'children': [{'name': 'nvme0n1p1', 'fstype': 'ntfs', 'fsver': None, 'label': 'System Reserved', 'uuid': '76EA7AE1EA7A9D55', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '50M'}, {'name': 'nvme0n1p2', 'fstype': 'ntfs', 'fsver': None, 'label': None, 'uuid': 'CC747B4B747B3774', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '476.3G'}, {'name': 'nvme0n1p3', 'fstype': 'ntfs', 'fsver': None, 'label': None, 'uuid': 'A86831F06831BE3E', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '620M'}]}]}
+Testing connectivity to the Arch Linux mirrors ...
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Hardware model detected: To Be Filled By O.E.M. To Be Filled By O.E.M.; UEFI mode: False
+Processor model detected: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+Memory statistics: 32144736 available out of 32832348 total installed
+Could not detect virtual system: ['/usr/bin/systemd-detect-virt'] exited with abnormal exit code [256]: b'none\r\n'
+System is not running in a VM: ['/usr/bin/systemd-detect-virt'] exited with abnormal exit code [256]: b'none\r\n'
+Virtualization detected: None; is VM: None
+Graphics devices detected: dict_keys(['NVIDIA Corporation TU104 [GeForce RTX 2070 SUPER] (rev a1)'])
+Disk states before installing: {'blockdevices': [{'name': 'loop0', 'fstype': 'squashfs', 'fsver': '4.0', 'label': None, 'uuid': None, 'fsavail': '0', 'fsuse%': '100%', 'mountpoints': ['/run/archiso/airootfs'], 'type': 'loop', 'size': '689.8M'}, {'name': 'sda', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '465.8G', 'children': [{'name': 'sda1', 'fstype': 'ntfs', 'fsver': None, 'label': None, 'uuid': '16149AEF149AD0DB', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '465.8G'}]}, {'name': 'sdb', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '476.9G'}, {'name': 'sdc', 'fstype': 'iso9660', 'fsver': 'Joliet Extension', 'label': 'ARCH_202207', 'uuid': '2022-07-01-13-20-00-00', 'fsavail': '0', 'fsuse%': '100%', 'mountpoints': ['/run/archiso/bootmnt'], 'type': 'disk', 'size': '7.3G', 'children': [{'name': 'sdc1', 'fstype': 'iso9660', 'fsver': 'Joliet Extension', 'label': 'ARCH_202207', 'uuid': '2022-07-01-13-20-00-00', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '782M'}, {'name': 'sdc2', 'fstype': 'vfat', 'fsver': 'FAT16', 'label': 'ARCHISO_EFI', 'uuid': '4D09-F5F8', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '13M'}]}, {'name': 'sr0', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'rom', 'size': '1024M'}, {'name': 'nvme0n1', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '476.9G', 'children': [{'name': 'nvme0n1p1', 'fstype': 'ntfs', 'fsver': None, 'label': 'System Reserved', 'uuid': '76EA7AE1EA7A9D55', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '50M'}, {'name': 'nvme0n1p2', 'fstype': 'ntfs', 'fsver': None, 'label': None, 'uuid': 'CC747B4B747B3774', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '476.3G'}, {'name': 'nvme0n1p3', 'fstype': 'ntfs', 'fsver': None, 'label': None, 'uuid': 'A86831F06831BE3E', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '620M'}]}]}
+Testing connectivity to the Arch Linux mirrors ...
+ -- Chosen configuration --
+{
+    "HSM": null,
+    "__separator__": null,
+    "additional-repositories": [
+        "multilib"
+    ],
+    "archinstall-language": "English",
+    "audio": "pipewire",
+    "bootloader": "grub-install",
+    "config_version": "2.5.0",
+    "debug": false,
+    "desktop-environment": "kde",
+    "gfx_driver": "Nvidia (open kernel module for newer GPUs, Turing+)",
+    "harddrives": [
+        "/dev/sdb"
+    ],
+    "hostname": "heisenberg",
+    "kernels": [
+        "linux"
+    ],
+    "keyboard-layout": "us",
+    "mirror-region": {
+        "United States": {
+            "http://arch.hu.fo/archlinux/$repo/os/$arch": true,
+            "http://arch.mirror.constant.com/$repo/os/$arch": true,
+            "http://archlinux.qern-industries.pw/$repo/os/$arch": true,
+            "http://archmirror1.octyl.net/$repo/os/$arch": true,
+            "http://arlm.tyzoid.com/$repo/os/$arch": true,
+            "http://codingflyboy.mm.fcix.net/archlinux/$repo/os/$arch": true,
+            "http://coresite.mm.fcix.net/archlinux/$repo/os/$arch": true,
+            "http://dfw.mirror.rackspace.com/archlinux/$repo/os/$arch": true,
+            "http://distro.ibiblio.org/archlinux/$repo/os/$arch": true,
+            "http://ftp.osuosl.org/pub/archlinux/$repo/os/$arch": true,
+            "http://iad.mirror.rackspace.com/archlinux/$repo/os/$arch": true,
+            "http://iad.mirrors.misaka.one/archlinux/$repo/os/$arch": true,
+            "http://il.us.mirror.archlinux-br.org/$repo/os/$arch": true,
+            "http://mirror.arizona.edu/archlinux/$repo/os/$arch": true,
+            "http://mirror.clarkson.edu/archlinux/$repo/os/$arch": true,
+            "http://mirror.cs.pitt.edu/archlinux/$repo/os/$arch": true,
+            "http://mirror.cs.vt.edu/pub/ArchLinux/$repo/os/$arch": true,
+            "http://mirror.ette.biz/archlinux/$repo/os/$arch": true,
+            "http://mirror.fcix.net/archlinux/$repo/os/$arch": true,
+            "http://mirror.hackingand.coffee/arch/$repo/os/$arch": true,
+            "http://mirror.lty.me/archlinux/$repo/os/$arch": true,
+            "http://mirror.math.princeton.edu/pub/archlinux/$repo/os/$arch": true,
+            "http://mirror.metrocast.net/archlinux/$repo/os/$arch": true,
+            "http://mirror.phx1.us.spryservers.net/archlinux/$repo/os/$arch": true,
+            "http://mirror.pit.teraswitch.com/archlinux/$repo/os/$arch": true,
+            "http://mirror.sfo12.us.leaseweb.net/archlinux/$repo/os/$arch": true,
+            "http://mirror.siena.edu/archlinux/$repo/os/$arch": true,
+            "http://mirror.stephen304.com/archlinux/$repo/os/$arch": true,
+            "http://mirror.umd.edu/archlinux/$repo/os/$arch": true,
+            "http://mirror.vtti.vt.edu/archlinux/$repo/os/$arch": true,
+            "http://mirror.wdc1.us.leaseweb.net/archlinux/$repo/os/$arch": true,
+            "http://mirrors.acm.wpi.edu/archlinux/$repo/os/$arch": true,
+            "http://mirrors.advancedhosters.com/archlinux/$repo/os/$arch": true,
+            "http://mirrors.aggregate.org/archlinux/$repo/os/$arch": true,
+            "http://mirrors.bloomu.edu/archlinux/$repo/os/$arch": true,
+            "http://mirrors.cat.pdx.edu/archlinux/$repo/os/$arch": true,
+            "http://mirrors.gigenet.com/archlinux/$repo/os/$arch": true,
+            "http://mirrors.kernel.org/archlinux/$repo/os/$arch": true,
+            "http://mirrors.lug.mtu.edu/archlinux/$repo/os/$arch": true,
+            "http://mirrors.mit.edu/archlinux/$repo/os/$arch": true,
+            "http://mirrors.ocf.berkeley.edu/archlinux/$repo/os/$arch": true,
+            "http://mirrors.radwebhosting.com/archlinux/$repo/os/$arch": true,
+            "http://mirrors.rit.edu/archlinux/$repo/os/$arch": true,
+            "http://mirrors.rutgers.edu/archlinux/$repo/os/$arch": true,
+            "http://mirrors.sonic.net/archlinux/$repo/os/$arch": true,
+            "http://mirrors.vectair.net/archlinux/$repo/os/$arch": true,
+            "http://mirrors.xmission.com/archlinux/$repo/os/$arch": true,
+            "http://mirrors.xtom.com/archlinux/$repo/os/$arch": true,
+            "http://mnvoip.mm.fcix.net/archlinux/$repo/os/$arch": true,
+            "http://ord.mirror.rackspace.com/archlinux/$repo/os/$arch": true,
+            "http://plug-mirror.rcac.purdue.edu/archlinux/$repo/os/$arch": true,
+            "http://repo.ialab.dsu.edu/archlinux/$repo/os/$arch": true,
+            "http://repo.miserver.it.umich.edu/archlinux/$repo/os/$arch": true,
+            "http://ridgewireless.mm.fcix.net/archlinux/$repo/os/$arch": true,
+            "http://www.gtlib.gatech.edu/pub/archlinux/$repo/os/$arch": true,
+            "https://america.mirror.pkgbuild.com/$repo/os/$arch": true,
+            "https://arch.hu.fo/archlinux/$repo/os/$arch": true,
+            "https://arch.mirror.constant.com/$repo/os/$arch": true,
+            "https://arch.mirror.ivo.st/$repo/os/$arch": true,
+            "https://archlinux.qern-industries.pw/$repo/os/$arch": true,
+            "https://archmirror1.octyl.net/$repo/os/$arch": true,
+            "https://arlm.tyzoid.com/$repo/os/$arch": true,
+            "https://codingflyboy.mm.fcix.net/archlinux/$repo/os/$arch": true,
+            "https://coresite.mm.fcix.net/archlinux/$repo/os/$arch": true,
+            "https://dfw.mirror.rackspace.com/archlinux/$repo/os/$arch": true,
+            "https://iad.mirror.rackspace.com/archlinux/$repo/os/$arch": true,
+            "https://iad.mirrors.misaka.one/archlinux/$repo/os/$arch": true,
+            "https://mirror.arizona.edu/archlinux/$repo/os/$arch": true,
+            "https://mirror.clarkson.edu/archlinux/$repo/os/$arch": true,
+            "https://mirror.ette.biz/archlinux/$repo/os/$arch": true,
+            "https://mirror.fcix.net/archlinux/$repo/os/$arch": true,
+            "https://mirror.lty.me/archlinux/$repo/os/$arch": true,
+            "https://mirror.phx1.us.spryservers.net/archlinux/$repo/os/$arch": true,
+            "https://mirror.pit.teraswitch.com/archlinux/$repo/os/$arch": true,
+            "https://mirror.sfo12.us.leaseweb.net/archlinux/$repo/os/$arch": true,
+            "https://mirror.stephen304.com/archlinux/$repo/os/$arch": true,
+            "https://mirror.theash.xyz/arch/$repo/os/$arch": true,
+            "https://mirror.tmmworkshop.com/archlinux/$repo/os/$arch": true,
+            "https://mirror.umd.edu/archlinux/$repo/os/$arch": true,
+            "https://mirror.wdc1.us.leaseweb.net/archlinux/$repo/os/$arch": true,
+            "https://mirror2.sandyriver.net/pub/archlinux/$repo/os/$arch": true,
+            "https://mirrors.bloomu.edu/archlinux/$repo/os/$arch": true,
+            "https://mirrors.kernel.org/archlinux/$repo/os/$arch": true,
+            "https://mirrors.lug.mtu.edu/archlinux/$repo/os/$arch": true,
+            "https://mirrors.mit.edu/archlinux/$repo/os/$arch": true,
+            "https://mirrors.ocf.berkeley.edu/archlinux/$repo/os/$arch": true,
+            "https://mirrors.radwebhosting.com/archlinux/$repo/os/$arch": true,
+            "https://mirrors.rit.edu/archlinux/$repo/os/$arch": true,
+            "https://mirrors.sonic.net/archlinux/$repo/os/$arch": true,
+            "https://mirrors.vectair.net/archlinux/$repo/os/$arch": true,
+            "https://mirrors.xtom.com/archlinux/$repo/os/$arch": true,
+            "https://mnvoip.mm.fcix.net/archlinux/$repo/os/$arch": true,
+            "https://ord.mirror.rackspace.com/archlinux/$repo/os/$arch": true,
+            "https://plug-mirror.rcac.purdue.edu/archlinux/$repo/os/$arch": true,
+            "https://repo.ialab.dsu.edu/archlinux/$repo/os/$arch": true,
+            "https://ridgewireless.mm.fcix.net/archlinux/$repo/os/$arch": true,
+            "https://zxcvfdsa.com/arch/$repo/os/$arch": true
+        }
+    },
+    "mount_point": null,
+    "nic": {
+        "dhcp": true,
+        "dns": null,
+        "gateway": null,
+        "iface": null,
+        "ip": null,
+        "type": "nm"
+    },
+    "ntp": true,
+    "packages": [
+        "--needed",
+        "acpi",
+        "acpid",
+        "acpi_call",
+        "alsa-firmware",
+        "alsa-plugins",
+        "alsa-utils",
+        "archlinux-wallpaper",
+        "ark",
+        "aspell",
+        "aspell-en",
+        "audiocd-kio",
+        "autoconf",
+        "automake",
+        "avahi",
+        "awesome-terminal-fonts",
+        "b43-fwcutter",
+        "base-devel",
+        "bash-completion",
+        "bat",
+        "bat-extras",
+        "bind",
+        "binutils",
+        "bison",
+        "bridge-utils",
+        "btrfs-progs",
+        "ccid",
+        "celluloid",
+        "clonezilla",
+        "cloud-init",
+        "cmatrix",
+        "code",
+        "cronie",
+        "cups",
+        "curl",
+        "ddrescue",
+        "dialog",
+        "discover",
+        "dmidecode",
+        "dnsmasq",
+        "dnsutils",
+        "dolphin",
+        "dolphin-plugins",
+        "dosfstools",
+        "dtc",
+        "efibootmgr",
+        "egl-wayland",
+        "ethtool",
+        "exa",
+        "exfatprogs",
+        "exfat-utils",
+        "extra-cmake-modules",
+        "fatresize",
+        "fd",
+        "ffmpegthumbs",
+        "filelight",
+        "firewalld",
+        "flex",
+        "foomatic-db",
+        "foomatic-db-engine",
+        "foomatic-db-gutenprint-ppds",
+        "foomatic-db-nonfree",
+        "foomatic-db-nonfree-ppds",
+        "foomatic-db-ppds",
+        "fsarchiver",
+        "fuse2",
+        "fuse3",
+        "fuseiso",
+        "gcc",
+        "gimp",
+        "git",
+        "glfw-wayland",
+        "go",
+        "gptfdisk",
+        "grub-btrfs",
+        "grub-customizer",
+        "gsmartcontrol",
+        "gst-libav",
+        "gst-plugins-good",
+        "gst-plugins-ugly",
+        "gst-plugin-pipewire",
+        "gtk-layer-shell",
+        "gutenprint",
+        "gvfs",
+        "gvfs-smb",
+        "haveged",
+        "hddtemp",
+        "hdparm",
+        "htop",
+        "hunspell",
+        "hunspell-en_us",
+        "ibus",
+        "imv",
+        "imwheel",
+        "inetutils",
+        "inkscape",
+        "intel-ucode",
+        "ipset",
+        "ipw2100-fw",
+        "ipw2200-fw",
+        "ispell",
+        "intltool",
+        "kaccounts-integration",
+        "kate",
+        "kdegraphics-thumbnailers",
+        "kde-gtk-config",
+        "kdenetwork-filesharing",
+        "kdeplasma-addons",
+        "kdesdk-thumbnailers",
+        "kfind",
+        "kgamma5",
+        "khotkeys",
+        "kimageformats",
+        "kio",
+        "kio-extras",
+        "kio-fuse",
+        "kio-gdrive",
+        "kleopatra",
+        "konsole",
+        "krita",
+        "kruler",
+        "kscreen",
+        "ksnip",
+        "kwalletmanager",
+        "kwallet-pam",
+        "kwayland",
+        "kwayland-integration",
+        "kwin",
+        "kwrite",
+        "kwrited",
+        "layer-shell-qt",
+        "libcups",
+        "libdecor",
+        "libdvdcss",
+        "libva",
+        "lftp",
+        "lib32-pipewire",
+        "lib32-pipewire-jack",
+        "libcroco",
+        "libreoffice-fresh",
+        "libspeechd",
+        "libtool",
+        "linux-firmware-bnx2x",
+        "linux-firmware-liquidio",
+        "linux-firmware-marvell",
+        "linux-firmware-mellanox",
+        "linux-firmware-nfp",
+        "linux-firmware-qlogic",
+        "linux-zen-headers",
+        "livecd-sounds",
+        "libqtxdg",
+        "libxdg-basedir",
+        "lsof",
+        "lua53",
+        "lynx",
+        "lzop",
+        "m4",
+        "make",
+        "mako",
+        "man-pages",
+        "micro",
+        "mkinitcpio-archiso",
+        "mtools",
+        "ndisc6",
+        "neofetch",
+        "networkmanager",
+        "network-manager-applet",
+        "networkmanager-qt",
+        "nfs-utils",
+        "noto-fonts-emoji",
+        "ntfs-3g",
+        "ntp",
+        "nvidia-open",
+        "nvme-cli",
+        "okular",
+        "openssh",
+        "os-prober",
+        "oxygen",
+        "p7zip",
+        "packagekit",
+        "packagekit-qt5",
+        "pacman-contrib",
+        "patch",
+        "picom",
+        "pcaudiolib",
+        "pipewire",
+        "pipewire-alsa",
+        "pipewire-pulse",
+        "pipewire-jack",
+        "pkgconf",
+        "plasma-browser-integration",
+        "plasma-disks",
+        "plasma-firewall",
+        "plasma-framework",
+        "plasma-integration",
+        "plasma-nm",
+        "plasma-pa",
+        "plasma-sdk",
+        "plasma-systemmonitor",
+        "plasma-thunderbolt",
+        "plasma-vault",
+        "plasma-wayland-protocols",
+        "plasma-wayland-session",
+        "plasma-workspace",
+        "plasma-workspace-wallpapers",
+        "powerdevil",
+        "powerline-fonts",
+        "plasma-meta",
+        "print-manager",
+        "python-notify2",
+        "python-psutil",
+        "python-pyqt5",
+        "python-pip",
+        "python-pywayland",
+        "qt5-imageformats",
+        "qt5-wayland",
+        "reflector",
+        "rpm-tools",
+        "rsync",
+        "rsync",
+        "rust",
+        "sane-airscan",
+        "scim",
+        "sddm",
+        "sddm-kcm",
+        "skanlite",
+        "smplayer",
+        "squashfs-tools",
+        "swappy",
+        "swtpm",
+        "synergy",
+        "systemd-ui",
+        "systemdgenie",
+        "taglib",
+        "terminus-font",
+        "thunderbird",
+        "tlp",
+        "traceroute",
+        "transmission-qt",
+        "udev",
+        "udisks2",
+        "ufw",
+        "unrar",
+        "unzip",
+        "usbutils",
+        "wayland",
+        "waylandpp",
+        "wayland-protocols",
+        "wayland-utils",
+        "waylock",
+        "wayvnc",
+        "wget",
+        "which",
+        "wl-clipboard",
+        "wlroots",
+        "wireless_tools",
+        "wireplumber",
+        "wlc",
+        "wpa_supplicant",
+        "xclip",
+        "xdg-desktop-portal-gnome",
+        "xdg-desktop-portal-gtk",
+        "xdg-desktop-portal-kde",
+        "xdg-desktop-portal-wlr",
+        "xdg-user-dirs",
+        "xdg-utils",
+        "xf86-input-evdev",
+        "xf86-video-vesa",
+        "xorg",
+        "xorg-apps",
+        "xorg-bdftopcf",
+        "xorg-docs",
+        "xorg-drivers",
+        "xorg-font-util",
+        "xorg-fonts-100dpi",
+        "xorg-fonts-75dpi",
+        "xorg-iceauth",
+        "xorg-mkfontscale",
+        "xorg-server",
+        "xorg-server-devel",
+        "xorg-server-xephyr",
+        "xorg-server-xnest",
+        "xorg-server-xvfb",
+        "xorg-sessreg",
+        "xorg-smproxy",
+        "xorg-x11perf",
+        "xorg-xbacklight",
+        "xorg-xcmsdb",
+        "xorg-xcursorgen",
+        "xorg-xdriinfo",
+        "xorg-xev",
+        "xorg-xgamma",
+        "xorg-xinit",
+        "xorg-xinput",
+        "xorg-xkbevd",
+        "xorg-xkbutils",
+        "xorg-xkill",
+        "xorg-xlsatoms",
+        "xorg-xlsclients",
+        "xorg-xmodmap",
+        "xorg-xpr",
+        "xorg-xrefresh",
+        "xorg-xvinfo",
+        "xorg-xwd",
+        "xorg-xwayland",
+        "xorg-xwud",
+        "xsane",
+        "xterm",
+        "yakuake",
+        "zram-generator",
+        "zsh",
+        "zsh-completions",
+        "zsh-autosuggestions",
+        "zsh-history-substring-search",
+        "zsh-syntax-highlighting",
+        "zip"
+    ],
+    "plugin": null,
+    "profile": {
+        "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/desktop.py"
+    },
+    "save_config": null,
+    "script": "guided",
+    "silent": false,
+    "swap": true,
+    "sys-encoding": "UTF-8",
+    "sys-language": "en_US",
+    "timezone": "America/Chicago",
+    "version": "2.5.0"
+}
+{
+    "/dev/sdb": {
+        "partitions": [
+            {
+                "boot": true,
+                "encrypted": false,
+                "filesystem": {
+                    "format": "fat32"
+                },
+                "mountpoint": "/boot",
+                "size": "512MiB",
+                "start": "3MiB",
+                "type": "primary",
+                "wipe": true
+            },
+            {
+                "btrfs": {
+                    "subvolumes": {
+                        "@": "/",
+                        "@.snapshots": "/.snapshots",
+                        "@home": "/home",
+                        "@tmp": "/tmp",
+                        "@var": "/var"
+                    }
+                },
+                "encrypted": false,
+                "filesystem": {
+                    "format": "btrfs",
+                    "mount_options": [
+                        "compress=zstd"
+                    ]
+                },
+                "mountpoint": null,
+                "size": "100%",
+                "start": "515MiB",
+                "type": "primary",
+                "wipe": true
+            }
+        ],
+        "wipe": true
+    }
+}
+Creating a new partition label on /dev/sdb
+Adding partition to BlockDevice(/dev/sdb, size=476.9GB, free_space=512GB, bus_type=sata), 3MiB->512MiB
+Adding partition using the following parted command: /dev/sdb mkpart primary fat32 3MiB 512MiB
+Formatting /dev/sdb1 -> vfat
+Could not locate mount information for /dev/sdb1: ['/usr/bin/findmnt', '--json', '-R', '/dev/sdb1'] exited with abnormal exit code [256]: b''
+Marking partition Partition(path=/dev/sdb1, size=0.5, PARTUUID=A59B-419C, fs=vfat) as bootable.
+Setting boot on on (parted) partition index 1
+Adding partition to BlockDevice(/dev/sdb, size=476.9GB, free_space=512GB, bus_type=sata), 515MiB->100%
+Adding partition using the following parted command: /dev/sdb mkpart primary btrfs 515MiB 100%
+Formatting /dev/sdb2 -> btrfs
+Could not locate mount information for /dev/sdb2: ['/usr/bin/findmnt', '--json', '-R', '/dev/sdb2'] exited with abnormal exit code [256]: b''
+Could not locate mount information for /dev/sdb2: ['/usr/bin/findmnt', '--json', '-R', '/dev/sdb2'] exited with abnormal exit code [256]: b''
+Mounting BTRFSPartition(path=/dev/sdb2, size=476.4, PARTUUID=1719d171-4924-4b97-9ec8-7c16e47cb444, fs=btrfs) to /mnt/archinstall/
+Setting up subvolumes: {'@': '/', '@.snapshots': '/.snapshots', '@home': '/home', '@var': '/var', '@tmp': '/tmp'}
+Attempting to create subvolume at /mnt/archinstall/@
+Attempting to create subvolume at /mnt/archinstall/@.snapshots
+Attempting to create subvolume at /mnt/archinstall/@home
+Attempting to create subvolume at /mnt/archinstall/@var
+Attempting to create subvolume at /mnt/archinstall/@tmp
+Could not locate mount information for /dev/sdb1: ['/usr/bin/findmnt', '--json', '-R', '/dev/sdb1'] exited with abnormal exit code [256]: b''
+Mounting /boot to /mnt/archinstall/boot using Partition(path=/dev/sdb1, size=0.5, PARTUUID=A59B-419C, fs=vfat)
+Using mount order: [('/', <function Installer.mount_ordered_layout.<locals>.<lambda> at 0x7f7fcc676ef0>), ('/.snapshots', <function Installer.mount_ordered_layout.<locals>.<lambda> at 0x7f7fcc677010>), ('/boot', <function Installer.mount_ordered_layout.<locals>.<lambda> at 0x7f7fcc677250>), ('/home', <function Installer.mount_ordered_layout.<locals>.<lambda> at 0x7f7fcc6772e0>), ('/tmp', <function Installer.mount_ordered_layout.<locals>.<lambda> at 0x7f7fcc677130>), ('/var', <function Installer.mount_ordered_layout.<locals>.<lambda> at 0x7f7fcc677400>)]
+Could not locate mount information for /dev/sdb2: ['/usr/bin/findmnt', '--json', '-R', '/dev/sdb2'] exited with abnormal exit code [256]: b''
+Mounting subvolume @ on BTRFSPartition(path=/dev/sdb2, size=476.4, PARTUUID=1719d171-4924-4b97-9ec8-7c16e47cb444, fs=btrfs) to /mnt/archinstall
+Getting mount information for device path /mnt/archinstall
+Mounting subvolume @.snapshots on BTRFSPartition(path=/dev/sdb2, size=476.4, PARTUUID=1719d171-4924-4b97-9ec8-7c16e47cb444, fs=btrfs, mounted=/mnt/archinstall) to /mnt/archinstall/.snapshots
+Getting mount information for device path /mnt/archinstall/.snapshots
+Could not locate mount information for /dev/sdb1: ['/usr/bin/findmnt', '--json', '-R', '/dev/sdb1'] exited with abnormal exit code [256]: b''
+Could not locate mount information for /dev/sdb1: ['/usr/bin/findmnt', '--json', '-R', '/dev/sdb1'] exited with abnormal exit code [256]: b''
+Mounting Partition(path=/dev/sdb1, size=0.5, PARTUUID=A59B-419C, fs=vfat) to /mnt/archinstall/boot
+Getting mount information for device path /mnt/archinstall/boot
+Mounting subvolume @home on BTRFSPartition(path=/dev/sdb2, size=476.4, PARTUUID=1719d171-4924-4b97-9ec8-7c16e47cb444, fs=btrfs, mounted=/mnt/archinstall) to /mnt/archinstall/home
+Getting mount information for device path /mnt/archinstall/home
+Mounting subvolume @tmp on BTRFSPartition(path=/dev/sdb2, size=476.4, PARTUUID=1719d171-4924-4b97-9ec8-7c16e47cb444, fs=btrfs, mounted=/mnt/archinstall) to /mnt/archinstall/tmp
+Getting mount information for device path /mnt/archinstall/tmp
+Mounting subvolume @var on BTRFSPartition(path=/dev/sdb2, size=476.4, PARTUUID=1719d171-4924-4b97-9ec8-7c16e47cb444, fs=btrfs, mounted=/mnt/archinstall) to /mnt/archinstall/var
+Getting mount information for device path /mnt/archinstall/var
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Filtering available mounts {'/mnt/archinstall': Partition(path=/dev/sdb2, size=476.4, PARTUUID=1719d171-4924-4b97-9ec8-7c16e47cb444, fs=btrfs, mounted=/mnt/archinstall), '/mnt/archinstall/boot': Partition(path=/dev/sdb1, size=0.5, PARTUUID=A59B-419C, fs=vfat, mounted=/mnt/archinstall/boot)} to those under /mnt/archinstall
+Available partitions: {'/mnt/archinstall': Partition(path=/dev/sdb2, size=476.4, PARTUUID=1719d171-4924-4b97-9ec8-7c16e47cb444, fs=btrfs, mounted=/mnt/archinstall), '/mnt/archinstall/boot': Partition(path=/dev/sdb1, size=0.5, PARTUUID=A59B-419C, fs=vfat, mounted=/mnt/archinstall/boot)}
+Waiting for automatic mirror selection (reflector) to complete.
+Waiting for dbus-org.freedesktop.timesync1.service to enter running state
+A new package mirror-list has been created: /etc/pacman.d/mirrorlist
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Filtering available mounts {'/mnt/archinstall': Partition(path=/dev/sdb2, size=476.4, PARTUUID=1719d171-4924-4b97-9ec8-7c16e47cb444, fs=btrfs, mounted=/mnt/archinstall), '/mnt/archinstall/boot': Partition(path=/dev/sdb1, size=0.5, PARTUUID=A59B-419C, fs=vfat, mounted=/mnt/archinstall/boot)} to those under /mnt/archinstall
+Available partitions: {'/mnt/archinstall': Partition(path=/dev/sdb2, size=476.4, PARTUUID=1719d171-4924-4b97-9ec8-7c16e47cb444, fs=btrfs, mounted=/mnt/archinstall), '/mnt/archinstall/boot': Partition(path=/dev/sdb1, size=0.5, PARTUUID=A59B-419C, fs=vfat, mounted=/mnt/archinstall/boot)}
+System is not running in a VM: ['/usr/bin/systemd-detect-virt'] exited with abnormal exit code [256]: b'none\r\n'
+The multilib flag is set. This system will be installed with the multilib repository enabled.
+The testing flag is not set. This system will be installed without testing repositories enabled.
+Installing packages: ['base', 'base-devel', 'linux-firmware', 'linux', 'btrfs-progs', 'grub', 'intel-ucode']
+Enabling periodic TRIM
+Enabling service fstrim.timer
+Setting up swap on zram
+Installing packages: ('zram-generator',)
+Enabling service systemd-zram-setup@zram0.service
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Could not get block device information using blkid() using command blkid -p -o export /dev/sr0
+Filtering available mounts {'/mnt/archinstall': Partition(path=/dev/sdb2, size=476.4, PARTUUID=1719d171-4924-4b97-9ec8-7c16e47cb444, fs=btrfs, mounted=/mnt/archinstall), '/mnt/archinstall/boot': Partition(path=/dev/sdb1, size=0.5, PARTUUID=A59B-419C, fs=vfat, mounted=/mnt/archinstall/boot)} to those under /mnt/archinstall
+Available partitions: {'/mnt/archinstall': Partition(path=/dev/sdb2, size=476.4, PARTUUID=1719d171-4924-4b97-9ec8-7c16e47cb444, fs=btrfs, mounted=/mnt/archinstall), '/mnt/archinstall/boot': Partition(path=/dev/sdb1, size=0.5, PARTUUID=A59B-419C, fs=vfat, mounted=/mnt/archinstall/boot)}
+Adding bootloader grub-install to Partition(path=/dev/sdb1, size=0.5, PARTUUID=A59B-419C, fs=vfat, mounted=/mnt/archinstall/boot)
+Installing packages: ('grub',)
+GRUB uses /dev/sdb1 as the boot partition.
+Installing packages: ['networkmanager']
+Enabling service NetworkManager.service
+This audio server will be used: pipewire
+Installing pipewire
+Installing packages: ['pipewire', 'pipewire-alsa', 'pipewire-jack', 'pipewire-pulse', 'gst-plugin-pipewire', 'libpulse', 'wireplumber']
+Installing packages: ['--needed', 'acpi', 'acpid', 'acpi_call', 'alsa-firmware', 'alsa-plugins', 'alsa-utils', 'archlinux-wallpaper', 'ark', 'aspell', 'aspell-en', 'audiocd-kio', 'autoconf', 'automake', 'avahi', 'awesome-terminal-fonts', 'b43-fwcutter', 'base-devel', 'bash-completion', 'bat', 'bat-extras', 'bind', 'binutils', 'bison', 'bridge-utils', 'btrfs-progs', 'ccid', 'celluloid', 'clonezilla', 'cloud-init', 'cmatrix', 'code', 'cronie', 'cups', 'curl', 'ddrescue', 'dialog', 'discover', 'dmidecode', 'dnsmasq', 'dnsutils', 'dolphin', 'dolphin-plugins', 'dosfstools', 'dtc', 'efibootmgr', 'egl-wayland', 'ethtool', 'exa', 'exfatprogs', 'exfat-utils', 'extra-cmake-modules', 'fatresize', 'fd', 'ffmpegthumbs', 'filelight', 'firewalld', 'flex', 'foomatic-db', 'foomatic-db-engine', 'foomatic-db-gutenprint-ppds', 'foomatic-db-nonfree', 'foomatic-db-nonfree-ppds', 'foomatic-db-ppds', 'fsarchiver', 'fuse2', 'fuse3', 'fuseiso', 'gcc', 'gimp', 'git', 'glfw-wayland', 'go', 'gptfdisk', 'grub-btrfs', 'grub-customizer', 'gsmartcontrol', 'gst-libav', 'gst-plugins-good', 'gst-plugins-ugly', 'gst-plugin-pipewire', 'gtk-layer-shell', 'gutenprint', 'gvfs', 'gvfs-smb', 'haveged', 'hddtemp', 'hdparm', 'htop', 'hunspell', 'hunspell-en_us', 'ibus', 'imv', 'imwheel', 'inetutils', 'inkscape', 'intel-ucode', 'ipset', 'ipw2100-fw', 'ipw2200-fw', 'ispell', 'intltool', 'kaccounts-integration', 'kate', 'kdegraphics-thumbnailers', 'kde-gtk-config', 'kdenetwork-filesharing', 'kdeplasma-addons', 'kdesdk-thumbnailers', 'kfind', 'kgamma5', 'khotkeys', 'kimageformats', 'kio', 'kio-extras', 'kio-fuse', 'kio-gdrive', 'kleopatra', 'konsole', 'krita', 'kruler', 'kscreen', 'ksnip', 'kwalletmanager', 'kwallet-pam', 'kwayland', 'kwayland-integration', 'kwin', 'kwrite', 'kwrited', 'layer-shell-qt', 'libcups', 'libdecor', 'libdvdcss', 'libva', 'lftp', 'lib32-pipewire', 'lib32-pipewire-jack', 'libcroco', 'libreoffice-fresh', 'libspeechd', 'libtool', 'linux-firmware-bnx2x', 'linux-firmware-liquidio', 'linux-firmware-marvell', 'linux-firmware-mellanox', 'linux-firmware-nfp', 'linux-firmware-qlogic', 'linux-zen-headers', 'livecd-sounds', 'libqtxdg', 'libxdg-basedir', 'lsof', 'lua53', 'lynx', 'lzop', 'm4', 'make', 'mako', 'man-pages', 'micro', 'mkinitcpio-archiso', 'mtools', 'ndisc6', 'neofetch', 'networkmanager', 'network-manager-applet', 'networkmanager-qt', 'nfs-utils', 'noto-fonts-emoji', 'ntfs-3g', 'ntp', 'nvidia-open', 'nvme-cli', 'okular', 'openssh', 'os-prober', 'oxygen', 'p7zip', 'packagekit', 'packagekit-qt5', 'pacman-contrib', 'patch', 'picom', 'pcaudiolib', 'pipewire', 'pipewire-alsa', 'pipewire-pulse', 'pipewire-jack', 'pkgconf', 'plasma-browser-integration', 'plasma-disks', 'plasma-firewall', 'plasma-framework', 'plasma-integration', 'plasma-nm', 'plasma-pa', 'plasma-sdk', 'plasma-systemmonitor', 'plasma-thunderbolt', 'plasma-vault', 'plasma-wayland-protocols', 'plasma-wayland-session', 'plasma-workspace', 'plasma-workspace-wallpapers', 'powerdevil', 'powerline-fonts', 'plasma-meta', 'print-manager', 'python-notify2', 'python-psutil', 'python-pyqt5', 'python-pip', 'python-pywayland', 'qt5-imageformats', 'qt5-wayland', 'reflector', 'rpm-tools', 'rsync', 'rsync', 'rust', 'sane-airscan', 'scim', 'sddm', 'sddm-kcm', 'skanlite', 'smplayer', 'squashfs-tools', 'swappy', 'swtpm', 'synergy', 'systemd-ui', 'systemdgenie', 'taglib', 'terminus-font', 'thunderbird', 'tlp', 'traceroute', 'transmission-qt', 'udev', 'udisks2', 'ufw', 'unrar', 'unzip', 'usbutils', 'wayland', 'waylandpp', 'wayland-protocols', 'wayland-utils', 'waylock', 'wayvnc', 'wget', 'which', 'wl-clipboard', 'wlroots', 'wireless_tools', 'wireplumber', 'wlc', 'wpa_supplicant', 'xclip', 'xdg-desktop-portal-gnome', 'xdg-desktop-portal-gtk', 'xdg-desktop-portal-kde', 'xdg-desktop-portal-wlr', 'xdg-user-dirs', 'xdg-utils', 'xf86-input-evdev', 'xf86-video-vesa', 'xorg', 'xorg-apps', 'xorg-bdftopcf', 'xorg-docs', 'xorg-drivers', 'xorg-font-util', 'xorg-fonts-100dpi', 'xorg-fonts-75dpi', 'xorg-iceauth', 'xorg-mkfontscale', 'xorg-server', 'xorg-server-devel', 'xorg-server-xephyr', 'xorg-server-xnest', 'xorg-server-xvfb', 'xorg-sessreg', 'xorg-smproxy', 'xorg-x11perf', 'xorg-xbacklight', 'xorg-xcmsdb', 'xorg-xcursorgen', 'xorg-xdriinfo', 'xorg-xev', 'xorg-xgamma', 'xorg-xinit', 'xorg-xinput', 'xorg-xkbevd', 'xorg-xkbutils', 'xorg-xkill', 'xorg-xlsatoms', 'xorg-xlsclients', 'xorg-xmodmap', 'xorg-xpr', 'xorg-xrefresh', 'xorg-xvinfo', 'xorg-xwd', 'xorg-xwayland', 'xorg-xwud', 'xsane', 'xterm', 'yakuake', 'zram-generator', 'zsh', 'zsh-completions', 'zsh-autosuggestions', 'zsh-history-substring-search', 'zsh-syntax-highlighting', 'zip']
+Installing archinstall profile Profile(desktop.py)
+Installing packages: ['nano', 'vim', 'openssh', 'htop', 'wget', 'iwd', 'wireless_tools', 'wpa_supplicant', 'smartmontools', 'xdg-utils']
+Installing archinstall profile Profile(kde)
+Installing archinstall profile Profile(xorg)
+Installing packages: ('xorg-server xorg-xinit nvidia-open',)
+Installing packages: ['plasma-meta', 'konsole', 'kwrite', 'dolphin', 'ark', 'sddm', 'plasma-wayland-session', 'egl-wayland']
+Enabling service sddm
+Creating user wilson
+Setting password for wilson
+Enabling sudo permissions for wilson.
+Activating systemd-timesyncd for time synchronization using Arch Linux and ntp.org NTP servers.
+Enabling service systemd-timesyncd
+Setting password for root
+Setting keyboard language to us
+Keyboard language for this installation is now set to: us
+Updating /mnt/archinstall/etc/fstab
+For post-installation tips, see https://wiki.archlinux.org/index.php/Installation_guide#Post-installation
+Installation completed without any errors. You may now reboot.
