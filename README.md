@@ -66,3 +66,12 @@ cp /root/*.json /mnt/archinstall/home/yourusername/archinstall/
 NOTE: I just verified that it will pull the files from the github link. It has to point to the raw file data using a link such as this one. Just click on the RAW button and use the link. https://raw.githubusercontent.com/wilsonephillips/archinstall/main/user_configuration.json
 
 Even then, it will fail if you do not name the path to all of them. If you name one, you have to name them all. I did it using just the link above and the other two were local. At least, I know for a fact that it works. This means you have to create all three files to use one.
+
+#################################################################
+#################################################################
+
+On Aug 1, 2022, Arch will put out a new version of the monthly ISO. I will do a fresh install with it to test what I have here. I am going to try to install by just pulling the files with the raw.github.com links and see if it just works as it should. It failed the first time, because I was not aware that it must have all three files. Here are the links I will use. I will change the passwords for me and for root after the install is complete. I am optimistic about it.
+
+https://raw.githubusercontent.com/wilsonephillips/archinstall/main/user_configuration.json
+https://raw.githubusercontent.com/wilsonephillips/archinstall/main/user_credentials.json
+https://raw.githubusercontent.com/wilsonephillips/archinstall/main/user_disk_layout.json
