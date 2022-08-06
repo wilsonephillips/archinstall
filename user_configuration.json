@@ -6,7 +6,7 @@
     "desktop-environment": "kde",
     "gfx_driver": "Nvidia (open kernel module for newer GPUs, Turing+)",
     "harddrives": [
-        "/dev/sdb"
+        "/dev/sda"
     ],
     "hostname": "heisenberg",
 
