@@ -88,7 +88,6 @@
             "https://mirror.pit.teraswitch.com/archlinux/$repo/os/$arch": true,
             "https://mirror.sfo12.us.leaseweb.net/archlinux/$repo/os/$arch": true,
             "https://mirror.stephen304.com/archlinux/$repo/os/$arch": true,
-            "https://mirror.theash.xyz/arch/$repo/os/$arch": true,
             "https://mirror.tmmworkshop.com/archlinux/$repo/os/$arch": true,
             "https://mirror.umd.edu/archlinux/$repo/os/$arch": true,
             "https://mirror.wdc1.us.leaseweb.net/archlinux/$repo/os/$arch": true,
@@ -444,6 +443,6 @@
     },
     "script": "guided",
     "silent": false,
-    "timezone": "America/Chicago",
+    "timezone": "US/Central",
     "version": "2.5.0"
 }
