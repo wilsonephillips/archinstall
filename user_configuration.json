@@ -6,7 +6,7 @@
     "desktop-environment": "kde",
     "gfx_driver": "Nvidia (open kernel module for newer GPUs, Turing+)",
     "harddrives": [
-        "/dev/sda"
+        "/dev/nvme0n1"
     ],
     "hostname": "heisenberg",
 
@@ -268,7 +268,7 @@
         "linux-firmware-mellanox",
         "linux-firmware-nfp",
         "linux-firmware-qlogic",
-        "linux-zen-headers",
+        "linux-headers",
         "livecd-sounds",
         "libqtxdg",
         "libxdg-basedir",
@@ -299,7 +299,6 @@
         "os-prober",
         "oxygen",
         "p7zip",
-        "packagekit",
         "packagekit-qt5",
         "pacman-contrib",
         "patch",
