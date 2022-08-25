@@ -27,11 +27,11 @@
                 "filesystem": {
                     "format": "btrfs",
                     "mount_options": [
-                        "noatime",
-                        "ssd",
-                        "compress=zstd",
-                        "discard=async",
-                        "space_cache=v2"
+                        "noatime,",
+                        "ssd,",
+                        "compress=zstd,",
+                        "discard=async,",
+                        "space_cache=v2,"
                     ]
                 },
                 "mountpoint": null,
